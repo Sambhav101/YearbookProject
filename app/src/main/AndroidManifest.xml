@@ -14,6 +14,8 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".WebviewActivity"></activity>
         <activity android:name=".SambhavActivity" />
+        <activity android:name=".VanessaActivity"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
