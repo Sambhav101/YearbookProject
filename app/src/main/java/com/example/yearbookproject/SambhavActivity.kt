@@ -16,5 +16,10 @@ class SambhavActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun next_p(view: View) {
+        val intent = Intent(this, VanessaActivity::class.java)
+        startActivity(intent)
+    }
+
 
 }
