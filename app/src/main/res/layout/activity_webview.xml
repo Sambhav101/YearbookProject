@@ -12,12 +12,12 @@
     <WebView
         android:id="@+id/web"
         android:layout_width="match_parent"
-        android:layout_height="749dp" />
+        android:layout_height="684dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#040303"
         android:onClick="home"
         android:text="Home"
