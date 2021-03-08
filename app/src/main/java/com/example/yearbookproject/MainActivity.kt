@@ -17,7 +17,6 @@ import androidx.core.app.NotificationManagerCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        createNotificationChannel()
         setContentView(R.layout.activity_main)
 
     }
@@ -53,12 +52,9 @@ class MainActivity : AppCompatActivity() {
         }.start()
     }
 
-
-
     fun openFeed(view: View) {
         val intent = Intent(this, SambhavActivity::class.java)
         startActivity(intent)
-
     }
 
     fun openWebView(view: View) {
@@ -78,5 +74,4 @@ class MainActivity : AppCompatActivity() {
             notificationManager.createNotificationChannel(channel)
         }
     }
-
 }
