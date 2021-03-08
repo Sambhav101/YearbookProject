@@ -37,7 +37,6 @@ class SambhavActivity : AppCompatActivity() {
         }
         startActivity(Intent.createChooser(shareIntent, "send to"))
 
-
     }
 
 
