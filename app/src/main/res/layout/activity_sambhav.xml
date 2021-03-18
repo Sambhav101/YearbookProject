@@ -105,7 +105,7 @@
         android:layout_width="match_parent"
         android:layout_height="71dp"
         android:gravity="center"
-        android:text='"Meow"'
+        android:text="Hello"
         android:textColor="#000000"
         android:textSize="18sp" />
 
@@ -121,7 +121,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="227dp">
+        android:layout_height="169dp">
 
         <Button
             android:id="@+id/button6"
@@ -129,6 +129,7 @@
             android:layout_height="69dp"
             android:autoText="false"
             android:background="#AFB5E6"
+            android:onClick="share"
             android:text="Share Image"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -145,7 +146,7 @@
     <Button
         android:id="@+id/button8"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="58dp"
         android:background="#292973"
         android:onClick="next_p"
         android:text="Next"
